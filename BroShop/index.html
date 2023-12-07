@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BroShop</title>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <div class="logo">BroShop</div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <button id="searchButton" onclick="searchProducts()">Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="cart.html">My Cart</a>
+        </div>
+    </div>
+
+    <div id="productList"> <!-- Container for the products -->
+        <div class="product" data-product-id="1">
+            <h2>Product 1</h2>
+            <p>Price: $19.99</p>
+            <button class="buy-now" onclick="buyNow(1)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="2">
+            <h2>Product 2</h2>
+            <p>Price: $29.99</p>
+            <button class="buy-now" onclick="buyNow(2)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="3">
+            <h2>Product 3</h2>
+            <p>Price: $14.99</p>
+            <button class="buy-now" onclick="buyNow(3)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="4">
+            <h2>Product 4</h2>
+            <p>Price: $39.99</p>
+            <button class="buy-now" onclick="buyNow(4)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(4)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="5">
+            <h2>Product 5</h2>
+            <p>Price: $24.99</p>
+            <button class="buy-now" onclick="buyNow(5)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(5)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="6">
+            <h2>Product 6</h2>
+            <p>Price: $49.99</p>
+            <button class="buy-now" onclick="buyNow(6)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(6)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="7">
+            <h2>Product 7</h2>
+            <p>Price: $9.99</p>
+            <button class="buy-now" onclick="buyNow(7)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(7)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="8">
+            <h2>Product 8</h2>
+            <p>Price: $34.99</p>
+            <button class="buy-now" onclick="buyNow(8)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(8)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="9">
+            <h2>Product 9</h2>
+            <p>Price: $19.99</p>
+            <button class="buy-now" onclick="buyNow(9)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(9)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-product-id="10">
+            <h2>Product 10</h2>
+            <p>Price: $29.99</p>
+            <button class="buy-now" onclick="buyNow(10)">Buy Now</button>
+            <button class="add-to-cart" onclick="addToCart(10)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
